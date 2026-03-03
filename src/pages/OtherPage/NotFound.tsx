@@ -6,8 +6,8 @@ export default function NotFound() {
   return (
     <>
       <PageMeta
-        title="React.js 404 Dashboard | TailAdmin - React.js Admin Dashboard Template"
-        description="This is React.js 404 Dashboard page for TailAdmin - React.js Tailwind CSS Admin Dashboard Template"
+        title="404 Dashboard"
+        description="404 Dashboard - Ziad Mostafa - Admin Dashboard"
       />
       <div className="relative flex flex-col items-center justify-center min-h-screen p-6 overflow-hidden z-1">
         <GridShape />
@@ -16,9 +16,9 @@ export default function NotFound() {
             ERROR
           </h1>
 
-          <img src="/images/error/404.svg" alt="404" className="dark:hidden" />
+          <img src="/dashboard/images/error/404.svg" alt="404" className="dark:hidden" />
           <img
-            src="/images/error/404-dark.svg"
+            src="/dashboard/images/error/404-dark.svg"
             alt="404"
             className="hidden dark:block"
           />
